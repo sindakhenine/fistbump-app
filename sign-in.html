@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Fistbump sign-in</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #fafbf6;
+        color: #46594d;
+        font:
+          15px -apple-system,
+          system-ui,
+          sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Opening X…</p>
+    <script>
+      // The phone app starts X sign-in here, on Fistbump's own address, so the iPhone's sign-in
+      // prompt names app.fistbump.world. Only Fistbump's own sign-in service is allowed onward.
+      var target = '';
+      try {
+        target = decodeURIComponent(location.hash.slice(1));
+      } catch (e) {
+        target = '';
+      }
+      if (/^https:\/\/xhuhqgfvrtgdiqsxekig\.supabase\.co\/auth\/v1\/authorize\?/.test(target)) {
+        location.replace(target);
+      } else {
+        location.replace('/');
+      }
+    </script>
+  </body>
+</html>
