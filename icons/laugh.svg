@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Laughing: a glossy yellow face, eyes shut tight, mouth wide open, two tears. -->
+  <defs>
+    <radialGradient id="f" cx="0.38" cy="0.3" r="0.78">
+      <stop offset="0" stop-color="#fff4a8"/><stop offset="0.45" stop-color="#ffd23f"/>
+      <stop offset="0.85" stop-color="#f6a400"/><stop offset="1" stop-color="#d77f00"/>
+    </radialGradient>
+    <radialGradient id="h" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6f3ff"/><stop offset="1" stop-color="#2f97ff"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="48" cy="90" rx="28" ry="4" fill="#000" opacity="0.18"/>
+  <circle cx="48" cy="50" r="40" fill="url(#f)"/>
+  <ellipse cx="36" cy="26" rx="20" ry="10" fill="url(#h)" transform="rotate(-24 36 26)"/>
+  <path d="M25 41 Q33 31 41 41 M55 41 Q63 31 71 41" fill="none" stroke="#5a2c06" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M22 52 Q48 58 74 52 Q72 82 48 84 Q24 82 22 52 Z" fill="#6b2a0c"/>
+  <path d="M25 54 Q48 59 71 54 L70 61 Q48 65 26 61 Z" fill="#fff"/>
+  <ellipse cx="48" cy="75" rx="14" ry="7" fill="#ff6f8a"/>
+  <path d="M15 40 C9 48 8 55 13 58 C18 61 22 55 20 48 Z" fill="url(#t)"/>
+  <path d="M81 40 C87 48 88 55 83 58 C78 61 74 55 76 48 Z" fill="url(#t)"/>
+  <ellipse cx="13" cy="51" rx="1.6" ry="3" fill="#fff" opacity="0.9"/>
+  <ellipse cx="81" cy="51" rx="1.6" ry="3" fill="#fff" opacity="0.9"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Faster: the shiny lightning bolt of the Medium level (LevelIcon). -->
+  <defs>
+    <linearGradient id="b" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#fffbd0"/><stop offset="0.45" stop-color="#ffe14d"/><stop offset="1" stop-color="#ffb300"/>
+    </linearGradient>
+  </defs>
+  <path d="M29 4 L12 27 H23 L18 44 L37 19 H26 Z" transform="translate(2 2.5)" fill="#b35f00" stroke="#b35f00" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M29 4 L12 27 H23 L18 44 L37 19 H26 Z" fill="url(#b)" stroke="#f59f00" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M27 9 L17.5 22.5" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity="0.75"/>
+</svg>

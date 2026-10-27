@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- On fire: the shiny flame of the Hard level (LevelIcon). -->
+  <defs>
+    <linearGradient id="o" x1="0.3" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#ff9a6b"/><stop offset="0.5" stop-color="#f2542d"/><stop offset="1" stop-color="#c92a0a"/>
+    </linearGradient>
+    <linearGradient id="i" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#fff3a0"/><stop offset="0.6" stop-color="#ffc934"/><stop offset="1" stop-color="#ff9f1c"/>
+    </linearGradient>
+  </defs>
+  <path d="M24 3 C27 10 34 13 36 20 C37.5 15 36 12 35 10 C41 15 43 22 42 29 C40.5 38 33 45 24 45 C15 45 7.5 38 6 29 C5 22 8 16 12 12 C12 16 13 18 15 20 C15 12 19 7 24 3 Z" fill="url(#o)"/>
+  <path d="M24 21 C26 25 31 27 31 33 C31 38 28 41 24 41 C20 41 17 38 17 33 C17 30 18.5 28 20 27 C20.5 29 21.5 30 22.5 30.5 C22 26 22.5 23.5 24 21 Z" fill="url(#i)"/>
+  <ellipse cx="15" cy="25" rx="2.6" ry="5.5" fill="#fff" opacity="0.4" transform="rotate(20 15 25)"/>
+</svg>
