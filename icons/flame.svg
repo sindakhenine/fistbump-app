@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-  <!-- On fire: the shiny flame of the Hard level (LevelIcon). -->
+  <!-- On fire: the shiny flame (🔥 in src/world/games/gamePictures.ts). -->
   <defs>
     <linearGradient id="o" x1="0.3" y1="0" x2="0.6" y2="1">
       <stop offset="0" stop-color="#ff9a6b"/><stop offset="0.5" stop-color="#f2542d"/><stop offset="1" stop-color="#c92a0a"/>
