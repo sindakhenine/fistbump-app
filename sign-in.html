@@ -32,6 +32,12 @@
         target = '';
       }
       if (/^https:\/\/xhuhqgfvrtgdiqsxekig\.supabase\.co\/auth\/v1\/authorize\?/.test(target)) {
+        // A note for this tab only: if the sign-in service later sends this sheet to the website
+        // with an error (it does after 5 minutes), the website hands the error back to the app
+        // (src/world/signInReturn.ts, sheetReturn).
+        try {
+          sessionStorage.setItem('fistbump.sign-in.sheet', String(Date.now()));
+        } catch (e) {}
         location.replace(target);
       } else {
         location.replace('/');
