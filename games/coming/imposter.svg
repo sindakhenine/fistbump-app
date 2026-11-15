@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Imposter: a round glossy face in a spy's hat and eye mask, looking sideways, with a sly smile. -->
+  <defs>
+    <radialGradient id="face" cx="0.38" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#fff4a8"/><stop offset="0.45" stop-color="#ffd23f"/>
+      <stop offset="0.85" stop-color="#f6a400"/><stop offset="1" stop-color="#d77f00"/>
+    </radialGradient>
+    <linearGradient id="hat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b79bff"/><stop offset="0.5" stop-color="#7a4dff"/><stop offset="1" stop-color="#3f1fa8"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9db0"/><stop offset="1" stop-color="#ff3d6a"/>
+    </linearGradient>
+    <linearGradient id="mask" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5468"/><stop offset="1" stop-color="#10141d"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="48" cy="90" rx="27" ry="4" fill="#000" opacity="0.2"/>
+  <!-- The face. -->
+  <circle cx="48" cy="57" r="32" fill="url(#face)"/>
+  <!-- The eye mask, its eyes looking to the side. -->
+  <path d="M17 50 C20 42 34 41 48 46 C62 41 76 42 79 50 C81 58 72 64 62 62 C55 61 51 56 48 56 C45 56 41 61 34 62 C24 64 15 58 17 50 Z" fill="url(#mask)" stroke="#07090d" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M22 48 C27 45 34 45 40 47" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" opacity="0.45"/>
+  <ellipse cx="33.5" cy="53" rx="7" ry="5.4" fill="#fff"/>
+  <ellipse cx="62.5" cy="53" rx="7" ry="5.4" fill="#fff"/>
+  <circle cx="36.6" cy="53.4" r="3.3" fill="#1b2130"/>
+  <circle cx="65.6" cy="53.4" r="3.3" fill="#1b2130"/>
+  <circle cx="37.6" cy="52.2" r="1.1" fill="#fff"/>
+  <circle cx="66.6" cy="52.2" r="1.1" fill="#fff"/>
+  <!-- A sly smile and a rosy cheek. -->
+  <path d="M40 73 C46 78 54 77 60 70" fill="none" stroke="#6b2a0c" stroke-width="3.6" stroke-linecap="round"/>
+  <ellipse cx="66" cy="70" rx="5" ry="3" fill="#ff7d6b" opacity="0.5"/>
+  <!-- The hat: a round crown, a pink band, a wide brim. -->
+  <path d="M27 31 C27 12 38 6 48 6 C58 6 69 12 69 31 Z" fill="url(#hat)" stroke="#2c1378" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M27.4 25 H68.6 V31 H27.4 Z" fill="url(#band)"/>
+  <path d="M9 34 C9 29 26 28 48 28 C70 28 87 29 87 34 C87 40 70 41 48 41 C26 41 9 40 9 34 Z" fill="url(#hat)" stroke="#2c1378" stroke-width="1.3"/>
+  <ellipse cx="38" cy="14.5" rx="9" ry="4.4" fill="url(#shine)" transform="rotate(-22 38 14.5)"/>
+  <path d="M17 33 C28 31.4 40 31 54 31.2" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+</svg>
