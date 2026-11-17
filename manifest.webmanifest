@@ -1,7 +1,7 @@
 {
   "name": "Fistbump",
   "short_name": "Fistbump",
-  "description": "Meet the builders you know from X, in real life.",
+  "description": "Keep up with AI every day, and meet the people who follow it too.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
